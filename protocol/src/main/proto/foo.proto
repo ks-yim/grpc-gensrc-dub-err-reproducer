@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package foo;
+option java_package = "com.example.foo";
+
+enum Foo {
+  BAR = 0;
+  BAZ = 1;
+}

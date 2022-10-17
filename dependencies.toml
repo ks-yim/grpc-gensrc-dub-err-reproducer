@@ -1,0 +1,12 @@
+[versions]
+protoc = "3.21.7"
+
+[libraries.protobuf-gradle-plugin]
+module = "com.google.protobuf:protobuf-gradle-plugin"
+version = "0.9.1"
+[libraries.protobuf-java]
+module = "com.google.protobuf:protobuf-java"
+version.ref = "protoc"
+[libraries.protoc]
+module = "com.google.protobuf:protoc"
+version.ref = "protoc"
